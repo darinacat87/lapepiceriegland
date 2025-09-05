@@ -212,3 +212,202 @@ nav a:hover {
     flex: 1 1 100%;
   }
 }
+
+/* ----- Section Contacts ----- */
+.contact {
+  padding: 80px 20px;
+  background: #f9f9f9;
+  color: #333;
+}
+
+.contact .container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.contact-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.contact-map {
+  flex: 1;
+}
+
+.contact-text {
+  flex: 1;
+}
+
+.contact-text h2 {
+  font-size: 2rem;
+  margin-bottom: 25px;
+  text-align: center;
+  color: #0077cc;
+}
+
+.contact-text p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.contact-text a {
+  color: #0077cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-text a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-content {
+    flex-direction: column;
+  }
+  .contact-map,
+  .contact-text {
+    flex: 1 1 100%;
+  }
+}
+
+/* Réseaux sociaux */
+.social-links {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.social-links h3 {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  color: #1877f2; /* bleu Facebook pour harmoniser */
+  font-weight: 600;
+}
+
+/* Bouton rond Facebook */
+.facebook-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background-color: #1877f2; /* bleu officiel Facebook */
+  border-radius: 50%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.facebook-icon {
+  width: 28px;
+  height: 28px;
+  color: #fff; /* logo blanc */
+}
+
+/* Effets tendance au survol */
+.facebook-link:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(24, 119, 242, 0.6);
+}
+
+/* ----- Pied de page ----- */
+.footer {
+  background-color: #f8f8f8;
+  padding: 40px 20px;
+  border-top: 2px solid #e0e0e0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.footer-logo img {
+  max-height: 80px;
+}
+
+.footer-info {
+  text-align: right;
+}
+
+.footer-info p {
+  margin: 5px 0;
+  font-size: 0.95rem;
+}
+
+.footer-info a {
+  color: #1877f2;
+  text-decoration: none;
+}
+
+.footer-info a:hover {
+  text-decoration: underline;
+}
+
+/* Zone réseaux sociaux */
+.footer-social {
+  margin-top: 10px;
+}
+
+.footer-social span {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+/* Icône Facebook en rond */
+.facebook-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #1877f2;
+  border-radius: 50%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.facebook-icon {
+  width: 20px;
+  height: 20px;
+  color: #fff;
+}
+
+.facebook-link:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 12px rgba(24, 119, 242, 0.6);
+}
+
+/* ----- Pied de page simplifié ----- */
+.footer {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-top: 2px solid #e0e0e0;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.footer a {
+  color: #1877f2;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* Ligne copyright */
+.footer-bottom {
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px solid #ddd;
+  font-size: 0.85rem;
+  color: #666;
+}
